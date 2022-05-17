@@ -1030,6 +1030,10 @@ li {
   list-style-type: none;
   padding: 1em;
   text-transform: ;
+  padding-left: 8px;
+    padding-right: 8px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 li span {
