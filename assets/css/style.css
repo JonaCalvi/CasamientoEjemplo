@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #00d3b8;
+  color: black;
   text-decoration: none;
 }
 
@@ -1102,18 +1102,44 @@ li span {
   border:1px solid #d6bcd6;
   display:inline-block;
   cursor:pointer;
-  color:#3a8a9e;
-  font-family:Arial;
-  font-size:17px;
+  color:black;
+  font-family:"Sacramento", cursive;
+  font-size:30px;
   padding:7px 25px;
   text-decoration:none;
   text-shadow:0px 1px 0px #e1e2ed;
+  font-weight: bold;
 }
 .myButton:hover {
   background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-  background-color:#bab1ba;
+  background-color:black;
 }
 .myButton:active {
   position:relative;
   top:1px;
+}
+
+
+
+
+
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-round.btn-sm {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
 }
